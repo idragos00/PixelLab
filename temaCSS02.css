@@ -25,13 +25,15 @@ h3 {
 h3 + p {
   font-weight: bold;
 }
+
+.footer,
 a {
   text-decoration: none;
   border: solid;
   background-color: blue;
   color: white;
   margin-top: 30px;
-  /* width: 100px; */
+  width: 100px;
   padding: 10px;
 }
 .patrat {
