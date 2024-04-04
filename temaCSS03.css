@@ -1,0 +1,78 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#menu {
+  border: 1px solid #ededed;
+  box-shadow: -20px 20px 30px #ededed;
+  padding: 10px;
+}
+
+.cat-logo {
+  width: 5em;
+  padding: 10px;
+  margin: 0 1em;
+}
+
+nav {
+  float: right;
+  margin-right: 2em;
+  /* display: inline; */
+  /* justify-content: space-between; */
+  /* text-decoration: none; */
+  padding: 10px;
+  margin-top: 2em;
+}
+
+nav a {
+  color: #666;
+  padding: 10px;
+  /* margin-right: 1em; */
+  display: inline-block;
+  /* justify-content: space-around; */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar {
+  float: left;
+  margin-top: 100px;
+  margin-left: 30px;
+  padding: 10px;
+  width: 10em;
+  box-shadow: -10px 10px 15px #ededed;
+}
+
+.sidebar a {
+  display: block;
+  /* text-decoration: none; */
+  /* color: #666; */
+  padding: 5px;
+}
+
+h3 {
+  text-decoration: underline;
+  color: #666;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+h1,
+p {
+  padding: 10px;
+}
+
+main {
+  box-shadow: -10px 10px 15px #ededed;
+  padding: 10px;
+  margin-top: 50px;
+  margin-right: 30px;
+  width: 90em;
+  float: right;
+}
