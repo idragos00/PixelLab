@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS 05 - Transitions, animations</title>
+    <link rel="stylesheet" href="./css05.css" />
+  </head>
+
+  <body>
+    <h2>Tranzitiile in CSS</h2>
+    <p>
+      Tranzitiile in CSS sunt regulile care controleaza schimbarea altor reguli
+      CSS, ca viteza, si flow.
+    </p>
+    Cele mai importante 3 valori de tinut minte pentru transition (shorthand)
+    sunt:
+    <ol>
+      <li>Duratia - Notatie de ex 10s inseamna 10 secunde</li>
+      <li>
+        Tipul animatiei - Variantele pricipale sunt "none" "ease", "linear" +
+        valori avansate
+      </li>
+      <li>Proprietatea pe care vrem sa o afectam (sau all daca toate)</li>
+    </ol>
+    <p>
+      Aceste tranzitii pot fi aplicate impreuna pe mai multe proprietati in mai
+      multe viteze sau stiluri separand valorile cu virgula.
+    </p>
+    <h4>
+      Nota: Tranzitiile trebuie puse pe elementul de baza, altfel vor fi
+      aplicate doar pe schimbare (si cand dispare :hover, va fi brusc, de
+      exemplu)
+    </h4>
+
+    <h2>Transforms</h2>
+    <ul>
+      <li>
+        scale: mareste sau micsoreaza elementul, cu un factor de 1= aceeasi
+        dimensiune, 0.5 = jumatate, 2 = dublu. ex: <b>transform: scale(2)</b>
+        <h6>Putem folosi si scaleX si scaleY dar vor distorsiona elementul</h6>
+      </li>
+      <li>
+        translate: muta elemenetul, folosim in general shorthand
+        <b>"transform: translate(valoareOrizontala, valoareVerticala)"</b> care
+        echivaleaza cu
+        <b
+          >"transform: translateX(valoareOrizontala)
+          translateY(valoareVerticala)"</b
+        >
+      </li>
+      <li>
+        rotate: invarte un element, specificam in "grade" ex
+        <b>transform: rotate(45deg)</b> va face elementul sa fie oblic.
+      </li>
+    </ul>
+
+    <h2>Ex asa nu</h2>
+    <p>Lorem ipsum pe un rand intreg</p>
+    <span>Span singur care vrea cu P-ul</span>
+    <p>
+      proprietatea display, de exemplu, nu va putea fi animata pentru ca nu este
+      una numerica, si nu are valori intermediare.
+    </p>
+
+    <h2>Opacity</h2>
+    <p>
+      Daca dorim sa facem un element vizib sau invizibil, fara sa-i stergem
+      pozitia (golul) din pagina, putem folosi "opacity" cu valori de la
+      0=invizibil la 1=vizibil
+    </p>
+
+    <input type="checkbox" id="houdini-cb" /> <b>Houdini</b>
+  </body>
+</html>
