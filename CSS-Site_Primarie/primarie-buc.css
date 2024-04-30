@@ -12,7 +12,8 @@ body {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #219ebc;
+  font-weight: bold;
 }
 
 article a {
@@ -31,6 +32,7 @@ article a {
 
 #menu {
   display: flex;
+  background-color: #ededed;
   border-bottom: solid 2px #219ebc;
   background-color: white;
   top: 0;
@@ -66,6 +68,8 @@ img {
   height: 3em;
 } */
 
+/* Com de presa  */
+
 .c-header {
   text-align: center;
   padding-top: 50px;
@@ -75,6 +79,7 @@ img {
 }
 
 .comunicate {
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 10px 20px;
@@ -82,11 +87,15 @@ img {
 }
 
 .c-box {
-  margin-right: 10em;
+  margin-right: 5em;
   display: flex;
   justify-content: center;
   padding: 10px;
-  padding-right: 20px;
+}
+.c-box-last {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 /* Exe */
