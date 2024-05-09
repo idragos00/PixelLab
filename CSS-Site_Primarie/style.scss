@@ -1,8 +1,14 @@
+// Test file
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+
+  .child{
+    padding : 0;
+    margin  : 0;
+  }
 }
+
+
 
 body {
   font-family: "Courier New", Courier, monospace;
@@ -50,13 +56,13 @@ article a {
 }
 
 .m-header-img {
-  position: relative;
   height: 500px;
   margin: auto;
 }
 .main-header,
 img {
   width: 100%;
+  position: relative;
   height: auto;
 }
 
@@ -70,27 +76,32 @@ img {
 
 /* Com de presa  */
 
-.card {
-  border: 2px solid wheat;
+.c-header {
+  text-align: center;
+  padding-top: 50px;
+  /* padding-left: 30px; */
+  /* margin-left: 5em; */
+  /* background-color: #219ebc; */
 }
 
-.w-cdp {
-  margin-top: 15px;
+.comunicate {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
   background-color: #219ebc;
 }
 
-.cdp-header {
-  padding: 50px 20px 30px;
-  text-align: center;
-  color: white;
-  font-weight: bold;
-  padding-top: 50px;
-}
-
-.cdp {
-  padding: 30px;
+.c-box {
+  margin-right: 5em;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 10px;
+}
+.c-box-last {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 /* Exe */
@@ -100,7 +111,6 @@ article {
 }
 
 .exe-header {
-  padding: 30px;
   font-weight: bold;
   color: #219ebc;
 }
@@ -121,7 +131,6 @@ article {
 /* PMB */
 
 .pmb-header {
-  padding: 100px;
   color: #219ebc;
   font-weight: bolder;
   padding: 10px;
@@ -150,24 +159,4 @@ article {
 
 .pmb-box:hover {
   background-color: #023047;
-}
-
-/* Evenimente */
-
-.w-events {
-  margin-top: 15px;
-  background-color: #ededed;
-}
-
-.events-header {
-  padding: 50px 20px 30px;
-  text-align: center;
-  font-weight: bold;
-  color: #219ebc;
-}
-
-.events {
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
 }
