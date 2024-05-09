@@ -20,8 +20,9 @@ article a {
   padding: 10px;
   padding-bottom: 0;
   text-decoration: none;
-  color: black;
-  border: 2px solid black;
+  color: #03045e;
+  /* color: black;
+  border: 2px solid black; */
 }
 
 .logo {
@@ -75,12 +76,12 @@ img {
 }
 
 .w-cdp {
-  margin-top: 15px;
+  padding-bottom: 120px;
   background-color: #219ebc;
 }
 
 .cdp-header {
-  padding: 50px 20px 30px;
+  padding: 50px 20px 5px;
   text-align: center;
   color: white;
   font-weight: bold;
@@ -95,14 +96,20 @@ img {
 
 /* Exe */
 
+.w-exe {
+  background-color: #ededed;
+}
+
 article {
+  margin-bottom: 5px;
   padding: 20px 10px;
+  border: 2px solid white;
 }
 
 .exe-header {
   padding: 30px;
   font-weight: bold;
-  color: #219ebc;
+  color: #03045e;
 }
 
 .first {
@@ -119,6 +126,10 @@ article {
 }
 
 /* PMB */
+
+.w-pmb {
+  padding: 80px 30px;
+}
 
 .pmb-header {
   padding: 100px;
@@ -160,7 +171,7 @@ article {
 }
 
 .events-header {
-  padding: 50px 20px 30px;
+  padding: 50px 20px 5px;
   text-align: center;
   font-weight: bold;
   color: #219ebc;
