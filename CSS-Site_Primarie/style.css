@@ -1,5 +1,163 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box; }
-  * .child {
-    padding: 0;
-    margin: 0; }
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  overflow-x: hidden;
+  padding-top: 70px; }
+
+#menu {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  top: 0; }
+  #menu .logo {
+    width: 10%;
+    height: 10%; }
+  #menu nav,
+  #menu ul,
+  #menu li,
+  #menu a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 100%; }
+  #menu ul li a {
+    display: flex;
+    justify-content: center; }
+  #menu a {
+    padding: 0 10px;
+    border-right: 2px solid #219ebc;
+    text-align: center;
+    margin-right: 5px; }
+
+a {
+  text-decoration: none;
+  color: #219ebc;
+  font-weight: bold; }
+
+article a {
+  padding: 10px;
+  padding-bottom: 0;
+  text-decoration: none;
+  color: #03045e;
+  /* color: black;
+  border: 2px solid black; */ }
+
+.main-header img {
+  height: 500px;
+  margin: auto;
+  width: 100%; }
+
+/* .box {
+  position: absolute;
+  left: 15em;
+  border: 2px solid #219ebc;
+  width: fit-content;
+  height: 3em;
+} */
+/* Com de presa  */
+.card {
+  border: 2px solid wheat; }
+
+.w-cdp {
+  padding-bottom: 120px;
+  background-color: #219ebc; }
+  .w-cdp .cdp-header {
+    padding: 50px 20px 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 50px; }
+  .w-cdp .cdp {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between; }
+  .w-cdp .card-text {
+    color: black; }
+  .w-cdp h2 {
+    color: white;
+    font-weight: bold;
+    padding: 5px 30px; }
+  .w-cdp p {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 10px 5px;
+    padding: 10px;
+    border: 2px solid white; }
+
+/* Exe */
+.w-exe {
+  background-color: white; }
+  .w-exe article {
+    margin-bottom: 5px;
+    padding: 20px 10px;
+    border: 2px solid #219ebc; }
+  .w-exe .exe-header {
+    padding: 30px;
+    font-weight: bold;
+    color: #03045e; }
+  .w-exe .first {
+    text-align: center; }
+  .w-exe .exe-container {
+    padding: 20px 30px; }
+  .w-exe .exe-img {
+    width: 200px;
+    height: 200px; }
+
+/* PMB */
+.w-pmb {
+  padding: 80px 30px;
+  background-color: #ededed; }
+  .w-pmb .pmb-header {
+    padding: 100px;
+    color: #219ebc;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center; }
+  .w-pmb .pmb-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1000px;
+    margin: auto; }
+  .w-pmb .pmb-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #219ebc;
+    color: aliceblue; }
+  .w-pmb a {
+    font-weight: bold;
+    font-size: 18px; }
+  .w-pmb .pmb-box:hover {
+    background-color: #023047; }
+
+/* Evenimente */
+.w-events {
+  margin-top: 15px;
+  background-color: #219ebc; }
+  .w-events .events-header {
+    padding: 50px 20px 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white; }
+  .w-events .events {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between; }

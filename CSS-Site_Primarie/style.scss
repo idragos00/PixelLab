@@ -1,19 +1,51 @@
-// Test file
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-
-  .child{
-    padding : 0;
-    margin  : 0;
-  }
 }
-
-
 
 body {
   font-family: "Courier New", Courier, monospace;
   overflow-x: hidden;
-  /* z-index: 1; */
+  padding-top: 70px;
+}
+
+#menu {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
+  background-color: white;
+  width: 100%;
+  top: 0;
+
+  .logo {
+    width: 10%;
+    height: 10%;
+  }
+  nav,
+  ul,
+  li,
+  a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    width: 100%;
+  }
+
+  ul li a {
+    display: flex;
+    justify-content: center;
+  }
+
+  a {
+    padding: 0 10px;
+    border-right: 2px solid #219ebc;
+    text-align: center;
+    margin-right: 5px;
+  }
 }
 
 a {
@@ -26,44 +58,17 @@ article a {
   padding: 10px;
   padding-bottom: 0;
   text-decoration: none;
-  color: black;
-  border: 2px solid black;
+  color: #03045e;
+  /* color: black;
+  border: 2px solid black; */
 }
 
-.logo {
-  width: 4em;
-  height: 4em;
-  padding: 10px;
-}
-
-#menu {
-  display: flex;
-  position: fixed;
-  top: 0;
-  z-index: 2;
-  width: 100%;
-  background-color: #ededed;
-  border-bottom: solid 2px #219ebc;
-  background-color: white;
-}
-
-.nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  padding: 10px;
-}
-
-.m-header-img {
-  height: 500px;
-  margin: auto;
-}
-.main-header,
-img {
-  width: 100%;
-  position: relative;
-  height: auto;
+.main-header {
+  img {
+    height: 500px;
+    margin: auto;
+    width: 100%;
+  }
 }
 
 /* .box {
@@ -76,87 +81,134 @@ img {
 
 /* Com de presa  */
 
-.c-header {
-  text-align: center;
-  padding-top: 50px;
-  /* padding-left: 30px; */
-  /* margin-left: 5em; */
-  /* background-color: #219ebc; */
+.card {
+  border: 2px solid wheat;
 }
 
-.comunicate {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  padding: 10px 20px;
+.w-cdp {
+  padding-bottom: 120px;
   background-color: #219ebc;
-}
+  .cdp-header {
+    padding: 50px 20px 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 50px;
+  }
 
-.c-box {
-  margin-right: 5em;
-  display: flex;
-  justify-content: center;
-  padding: 10px;
-}
-.c-box-last {
-  display: flex;
-  justify-content: center;
-  padding: 10px;
+  .cdp {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-text {
+    color: black;
+  }
+
+  h2 {
+    color: white;
+    font-weight: bold;
+    padding: 5px 30px;
+  }
+
+  p {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 10px 5px;
+    padding: 10px;
+    border: 2px solid white;
+  }
 }
 
 /* Exe */
 
-article {
-  padding: 20px 10px;
-}
+.w-exe {
+  background-color: white;
+  article {
+    margin-bottom: 5px;
+    padding: 20px 10px;
+    border: 2px solid #219ebc;
+  }
+  .exe-header {
+    padding: 30px;
+    font-weight: bold;
+    color: #03045e;
+  }
+  .first {
+    text-align: center;
+  }
 
-.exe-header {
-  font-weight: bold;
-  color: #219ebc;
-}
+  .exe-container {
+    padding: 20px 30px;
+  }
 
-.first {
-  text-align: center;
-}
-
-.exe-container {
-  padding: 20px 30px;
-}
-
-.exe-img {
-  width: 200px;
-  height: 200px;
+  .exe-img {
+    width: 200px;
+    height: 200px;
+  }
 }
 
 /* PMB */
 
-.pmb-header {
-  color: #219ebc;
-  font-weight: bolder;
-  padding: 10px;
-  text-align: center;
+.w-pmb {
+  padding: 80px 30px;
+  background-color: #ededed;
+  .pmb-header {
+    padding: 100px;
+    color: #219ebc;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .pmb-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 1000px;
+    margin: auto;
+  }
+
+  .pmb-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 20px;
+    border: 2px solid black;
+    background-color: #219ebc;
+    color: aliceblue;
+  }
+
+  a {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .pmb-box:hover {
+    background-color: #023047;
+  }
 }
 
-.pmb-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
-  width: 1000px;
-  margin: auto;
-}
+/* Evenimente */
 
-.pmb-box {
-  display: flex;
-  border-radius: 20px;
-  margin-bottom: 5px;
-  margin-right: 5px;
-  padding: 20px;
-  border: 2px solid black;
+.w-events {
+  margin-top: 15px;
   background-color: #219ebc;
-  color: aliceblue;
-}
+  .events-header {
+    padding: 50px 20px 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
 
-.pmb-box:hover {
-  background-color: #023047;
+  .events {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
