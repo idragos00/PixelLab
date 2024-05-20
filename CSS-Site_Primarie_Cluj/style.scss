@@ -133,6 +133,14 @@ body {
       h3:hover {
         color: #f8a23f;
       }
+
+      .fa-chevron-right {
+        position: relative;
+        left: 10em;
+        top: 1em;
+      }
+      .fa-chevron-right:hover {
+      }
     }
     h2 {
       text-transform: uppercase;
@@ -182,9 +190,13 @@ body {
   }
 }
 
-.reg {
+.reg-1 {
   padding: 20px 0;
-  h3 {
+  .reg-2 {
+    padding: 20px;
+  }
+
+  h2 {
     padding: 20px 0;
     font-size: 24px;
     font-weight: bold;
@@ -205,5 +217,36 @@ body {
     font-size: 14px;
     padding: 10px 20px;
     margin-top: 10px;
+  }
+}
+
+.newsletter {
+  padding: 100px 0;
+  .news-2 {
+    padding: 20px;
+  }
+
+  h2 {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  p {
+    color: #789;
+    font-weight: 600;
+  }
+  span {
+    display: block;
+  }
+  button {
+    background-color: #f8a23f;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 20px;
   }
 }

@@ -103,6 +103,10 @@ body {
       padding: 10px; }
       .wrapper .p-online .p-box h3:hover {
         color: #f8a23f; }
+      .wrapper .p-online .p-box .fa-chevron-right {
+        position: relative;
+        left: 10em;
+        top: 1em; }
     .wrapper .p-online h2 {
       text-transform: uppercase;
       font-weight: bold;
@@ -133,19 +137,21 @@ body {
       .wrapper .p-online article p {
         padding: 0; }
 
-.reg {
+.reg-1 {
   padding: 20px 0; }
-  .reg h3 {
+  .reg-1 .reg-2 {
+    padding: 20px; }
+  .reg-1 h2 {
     padding: 20px 0;
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase; }
-  .reg p {
+  .reg-1 p {
     color: #789;
     font-weight: 600; }
-  .reg span {
+  .reg-1 span {
     display: block; }
-  .reg button {
+  .reg-1 button {
     background-color: #f8a23f;
     text-transform: uppercase;
     color: white;
@@ -153,3 +159,27 @@ body {
     font-size: 14px;
     padding: 10px 20px;
     margin-top: 10px; }
+
+.newsletter {
+  padding: 100px 0; }
+  .newsletter .news-2 {
+    padding: 20px; }
+  .newsletter h2 {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase; }
+  .newsletter p {
+    color: #789;
+    font-weight: 600; }
+  .newsletter span {
+    display: block; }
+  .newsletter button {
+    background-color: #f8a23f;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 20px; }
