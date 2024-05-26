@@ -2,8 +2,72 @@
   padding: 0;
   margin: 0; }
 
+.row,
+.col {
+  padding: 0;
+  margin: 0; }
+
+.navbar {
+  background: #1c1c1c;
+  height: 96px; }
+  .navbar #w-navbar {
+    display: inline-block; }
+    .navbar #w-navbar img {
+      width: 163.56px;
+      height: 64px;
+      margin: 16px 0; }
+    .navbar #w-navbar ul li {
+      display: inline-block;
+      margin: 32px;
+      line-height: 20.08px; }
+      .navbar #w-navbar ul li a {
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        color: #fefaec; }
+
+.header .header-img {
+  height: 952px;
+  background-image: url(header-pasta.png);
+  background-size: cover; }
+
+.header #w-header {
+  position: absolute; }
+  .header #w-header h1 {
+    font-family: "Nobile", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64.8px;
+    position: relative;
+    color: #fefaec;
+    width: 794px;
+    height: 130px;
+    top: -455px;
+    left: 360px; }
+  .header #w-header span {
+    display: block; }
+  .header #w-header button {
+    position: relative;
+    width: 165px;
+    height: 56px;
+    top: -420px;
+    left: 360px;
+    border-radius: 4px;
+    padding: 18px, 24px, 18px, 24px;
+    gap: 10px;
+    background-color: #db9f55; }
+    .header #w-header button #btn-text {
+      font-family: "Mulish", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20.08px;
+      top: -500px;
+      left: 360px;
+      color: #1c1c1c; }
+
 .recenziile-clientilor {
-  background-color: #1c1c1c;
+  background: #1c1c1c;
   height: 672px; }
   .recenziile-clientilor p {
     font-family: "Mulish", sans-serif;
@@ -27,10 +91,6 @@
   .recenziile-clientilor img {
     width: 200px;
     height: 36px; }
-  .recenziile-clientilor .row,
-  .recenziile-clientilor .col {
-    padding: 0;
-    margin: 0; }
   .recenziile-clientilor h2 {
     color: #fefaec;
     margin-top: 96px;

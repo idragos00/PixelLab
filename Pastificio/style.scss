@@ -3,8 +3,88 @@
   margin: 0;
 }
 
+.row,
+.col {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background: #1c1c1c;
+  height: 96px;
+  #w-navbar {
+    display: inline-block;
+
+    img {
+      width: 163.56px;
+      height: 64px;
+      margin: 16px 0;
+    }
+    ul li {
+      display: inline-block;
+      margin: 32px;
+      line-height: 20.08px;
+
+      a {
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-decoration: none;
+        color: #fefaec;
+      }
+    }
+  }
+}
+
+.header {
+  .header-img {
+    height: 952px;
+    background-image: url(header-pasta.png);
+    background-size: cover;
+  }
+
+  #w-header {
+    position: absolute;
+    h1 {
+      font-family: "Nobile", sans-serif;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 64.8px;
+      position: relative;
+      color: #fefaec;
+      width: 794px;
+      height: 130px;
+      top: -455px;
+      left: 360px;
+    }
+    span {
+      display: block;
+    }
+    button {
+      position: relative;
+      width: 165px;
+      height: 56px;
+      top: -420px;
+      left: 360px;
+      border-radius: 4px;
+      padding: 18px, 24px, 18px, 24px;
+      gap: 10px;
+      background-color: #db9f55;
+      #btn-text {
+        font-family: "Mulish", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20.08px;
+        top: -500px;
+        left: 360px;
+        color: #1c1c1c;
+      }
+    }
+  }
+}
+
 .recenziile-clientilor {
-  background-color: #1c1c1c;
+  background: #1c1c1c;
   height: 672px;
   p {
     font-family: "Mulish", sans-serif;
@@ -32,12 +112,6 @@
   img {
     width: 200px;
     height: 36px;
-  }
-
-  .row,
-  .col {
-    padding: 0;
-    margin: 0;
   }
 
   h2 {
