@@ -39,7 +39,7 @@
 .header {
   .header-img {
     height: 952px;
-    background-image: url(header-pasta.png);
+    background-image: url(pastificio-imgs/header-pasta.png);
     background-size: cover;
   }
 
@@ -80,6 +80,37 @@
         color: #1c1c1c;
       }
     }
+  }
+}
+.ilustratii {
+  background-color: #1c1c1c;
+  height: 414px;
+  .card-1 {
+    width: 211px;
+    height: 222.85px;
+    top: -1143.15px;
+    left: 360px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 95.15px 294px 96px 0;
+  }
+  .card-2 {
+    width: 188px;
+    height: 222.85px;
+    top: 1143.15px;
+    left: 865px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 95.15px 294px 96px 0;
+  }
+  .card-3 {
+    width: 214px;
+    height: 222.85px;
+    top: 1143.15px;
+    left: 1346px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 95.15px 0 96px 0;
   }
 }
 
