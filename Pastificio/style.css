@@ -94,6 +94,31 @@
     opacity: 0px;
     margin: 95.15px 0 96px 0; }
 
+.produse-populare {
+  background: #1c1c1c;
+  width: 1920px;
+  height: 846px;
+  top: 1462px;
+  gap: 0px;
+  opacity: 0px; }
+  .produse-populare h2 {
+    width: 474px;
+    height: 54px;
+    top: 1558px;
+    left: 366px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "Nobile", sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    text-align: left;
+    color: #fefaec;
+    margin-top: 96px;
+    margin-bottom: 48px; }
+  .produse-populare img {
+    margin-right: 24px; }
+
 .recenziile-clientilor {
   background: #1c1c1c;
   height: 672px; }
