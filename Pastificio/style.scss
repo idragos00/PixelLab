@@ -116,7 +116,6 @@
 
 .produse-populare {
   background: #1c1c1c;
-  width: 1920px;
   height: 846px;
   top: 1462px;
   gap: 0px;
@@ -142,6 +141,59 @@
   }
 }
 
+.banner {
+  .banner-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(pastificio-imgs/banner.png);
+    background-size: cover;
+    height: 554px;
+    top: 2306px;
+    gap: 0px;
+    opacity: 0px;
+
+    h2 {
+      width: 1200px;
+      height: 162px;
+      top: 2450px;
+      left: 360px;
+      gap: 0px;
+      opacity: 0px;
+      color: #fefaec;
+      font-family: "Nobile", sans-serif;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 54px;
+      text-align: center;
+      margin-top: 144px;
+      margin-bottom: 48px;
+    }
+    button {
+      width: 128px;
+      height: 56px;
+      top: 2660px;
+      left: 875px;
+      padding: 18px 24px 18px 24px;
+      gap: 10px;
+      border-radius: 4px 0px 0px 0px;
+      opacity: 0px;
+      background-color: #db9f55;
+      p {
+        width: 80px;
+        height: 20px;
+        gap: 0px;
+        opacity: 0px;
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20.08px;
+        text-align: center;
+        color: #000000;
+      }
+    }
+  }
+}
 .recenziile-clientilor {
   background: #1c1c1c;
   height: 672px;
@@ -270,6 +322,83 @@
         margin-right: 32px;
         margin-bottom: 32px;
       }
+    }
+  }
+}
+
+.locatie {
+  .loc {
+    background-image: url(pastificio-imgs/Map.png);
+    background-size: cover;
+    height: 342px;
+    top: 4402px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.program {
+  background-color: #1c1c1c;
+  height: 387px;
+  top: 4744px;
+  gap: 0px;
+  opacity: 0px;
+  .w-prog {
+    h2 {
+      color: #fefaec;
+      width: 154px;
+      height: 54px;
+      top: 4840px;
+      left: 360px;
+      gap: 0px;
+      opacity: 0px;
+      font-family: "Nobile", sans-serif;
+      font-size: 36px;
+      font-weight: 500;
+      line-height: 54px;
+      text-align: left;
+      margin-top: 96px;
+      margin-bottom: 24px;
+    }
+    p {
+      color: #fefaec;
+      font-family: "Mulish", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+    }
+  }
+}
+
+.footer {
+  background-color: #1c1c1c;
+  height: 268px;
+  top: 2px;
+  gap: 0px;
+  opacity: 0px;
+
+  .w-footer {
+    .row {
+      padding-top: 72px;
+    }
+    p {
+      color: #fefaec;
+      font-family: "Mulish", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 24px;
+      text-align: left;
+    }
+    .normal-p {
+      color: #fefaec;
+      font-family: "Mulish", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+    }
+    img {
+      margin-right: 24px;
     }
   }
 }
