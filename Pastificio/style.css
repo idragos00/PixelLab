@@ -284,7 +284,8 @@
   height: 387px;
   top: 4744px;
   gap: 0px;
-  opacity: 0px; }
+  opacity: 0px;
+  border-bottom: 1px solid #db9f55; }
   .program .w-prog h2 {
     color: #fefaec;
     width: 154px;
