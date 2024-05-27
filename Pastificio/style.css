@@ -333,3 +333,20 @@
     text-align: left; }
   .footer .w-footer img {
     margin-right: 24px; }
+    .footer .w-footer img:first-of-type {
+      width: 36px;
+      height: 36px;
+      top: 150px;
+      left: 1463px;
+      gap: 0px;
+      opacity: 0px; }
+    .footer .w-footer img:last-of-type {
+      width: 36px;
+      height: 36px;
+      top: 186px;
+      left: 1523px;
+      gap: 0px;
+      opacity: 0px; }
+  .footer .w-footer .icons {
+    display: flex;
+    flex-flow: row-reverse wrap-reverse; }
