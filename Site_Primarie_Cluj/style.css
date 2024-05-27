@@ -77,32 +77,27 @@ h2 {
     text-align: center;
     text-transform: uppercase; }
 
-.cdp {
+.com-de-p .cards {
+  padding: 0; }
+  .com-de-p .cards .cdp-cards {
+    position: relative;
+    width: 400px;
+    height: auto;
+    margin-right: 10px; }
+    .com-de-p .cards .cdp-cards h2 {
+      font-size: 18px; }
+    .com-de-p .cards .cdp-cards img {
+      width: 100%; }
+    .com-de-p .cards .cdp-cards .wrapper {
+      overflow: hidden; }
+
+.com-de-p .cdp {
   padding: 20px; }
-  .cdp h2 {
+  .com-de-p .cdp h2 {
     text-transform: uppercase;
     font-weight: bold;
     padding: 20px 0; }
-  .cdp .img-box {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-    border: 1px solid #ededed;
-    margin-right: 50px;
-    margin-bottom: 15px;
-    -webkit-box-shadow: 0px 6px 78px 0px rgba(136, 142, 148, 0.77);
-    -moz-box-shadow: 0px 6px 78px 0px rgba(136, 142, 148, 0.77);
-    box-shadow: 0px 6px 78px 0px rgba(136, 142, 148, 0.77); }
-    .cdp .img-box h3 {
-      font-size: 15px;
-      padding-top: 10px;
-      width: 400px;
-      text-align: center; }
-    .cdp .img-box img {
-      padding-top: 10px; }
-  .cdp button {
+  .com-de-p .cdp button {
     background-color: #f8a23f;
     text-transform: uppercase;
     color: white;
