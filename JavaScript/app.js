@@ -11,5 +11,5 @@ console.log(admis);
 let latime = 4;
 let metruCaramida = 1;
 let totalCaramizi = 17;
-let ultimNivelComplet = (totalCaramizi % latime) === 0;
+let ultimNivelComplet = (totalCaramizi % latime) == 0;
 console.log(ultimNivelComplet);
