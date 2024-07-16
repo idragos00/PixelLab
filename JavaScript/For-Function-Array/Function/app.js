@@ -33,3 +33,22 @@ for (i = 0; i < myArray.length; i++){
   n = n * myArray[i];
 }
 console.log(n);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
